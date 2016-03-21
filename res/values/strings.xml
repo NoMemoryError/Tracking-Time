@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">TrackingTime</string>
+   	<string name="signin">Sign In</string>
+   	<string name="signup">Sign Up</string>
+   	<string name="signup_link"><u>Sign Up for Time Tracking</u></string>
+   	<string name="username_hint">Username</string>
+   	<string name="password_hint">Password</string>
+   	<string name="repeat_password_hint">Repeat Password</string>
+   	<string name="email_hint">Email</string>
+   	<string name="app_icon_hint">App Icon</string>
+   	<string name="invaliduser">Invalid username or password!</string>
+   	<string name="passwordMismatch">Passwords donot match!</string>
+   	<string name="full_img_desc">Full Size Image</string>
+   	<string name="thumbnail_img_desc">Thumbnail Image</string>
+   	<string name="upload">Upload</string>
+   	<string name="discard">Discard</string>
+   	<string name="addDescTitle">Description: </string>
+   	<string name="selectAll">All</string>
+   	<string name="search">Search</string>
+   	<string name="select">Select</string>
+   	<string-array name="dateOptions_array">
+   	    <item>Select Period</item>
+        <item>Since Last Day</item>
+        <item>Since Last Week</item>
+        <item>Since Last Month</item>
+        <item>Since Last Year</item>
+    </string-array>
+</resources>

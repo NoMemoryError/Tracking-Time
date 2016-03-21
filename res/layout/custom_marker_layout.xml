@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+ 
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:contentDescription="@string/thumbnail_img_desc"
+        android:src="@drawable/custom_marker" />
+
+    <ImageView
+        android:id="@+id/img_thumbnail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/thumbnail_img_desc"
+        android:layout_width="34dip"
+	    android:layout_height="30dip"
+	    android:scaleType="centerCrop"
+	    android:adjustViewBounds ="true" 
+	    android:layout_marginTop="6dp"
+	    android:layout_marginLeft="6dp" />
+ 
+</RelativeLayout>

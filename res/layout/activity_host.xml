@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 	<!--<fragment
+	        android:name="com.lab.fragments.SearchFragment"
+	        android:id="@+id/fragment_place"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="wrap_content" />-->
+	   		
+	<DatePicker
+	        android:id="@+id/datepicker"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:scaleY="0.8" 
+			android:scaleX="0.8" />
+	
+	<Spinner
+        android:id="@+id/dateSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/dateOptions_array"
+        android:prompt="@string/select"
+        android:layout_gravity="center" />
+	
+	<Button
+	        android:id="@+id/search_btn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:text = "@string/search"/>
+    <GridView
+    	android:id="@+id/gridview"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:numColumns="auto_fit"
+    	android:columnWidth="90dp"
+    	android:horizontalSpacing="10dp"
+    	android:verticalSpacing="10dp"
+    	android:gravity="center"
+    	android:stretchMode="columnWidth" >  
+	</GridView>
+</LinearLayout>
